@@ -15,18 +15,22 @@
 
 ## Commands
 
+### /ping
+
+Pong.
+
 ### /start_server
 
-Starts the compute instance via gcloud, a startup script for the instance is recommended  
+Starts the main instance via gcloud, a startup script for that instance is recommended  
 <sub>Note: This only starts the compute instance as it would be difficult to determine whether the machine has completely started, then run <code>docker-compose up -d</code>
 
 ### /stop_server
 
-Runs <code>docker-compose down</code> via gcloud ssh, then shuts down the compute instance via gcloud.
+Runs <code>docker-compose down</code> via gcloud ssh, then shuts down the main instance via gcloud.
 
 ### /status
 
-Returns the status of the server  
+Returns the status of the main instance  
   
 Output:  
 - The server is **running**  
