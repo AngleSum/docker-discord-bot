@@ -9,7 +9,7 @@
   2. Set up a startup script for that instance (Optional but recommended)
   3. Set up a "controller" Compute instance for running the Discord bot and controlling the main server
   4. Grant permissions (Start, shutdown other compute instance etc...) to the "controller" in Google Cloud Platform IAM
-  5. Set up a bot on discord (remember the token) and add the bot to your Discord server
+  5. Set up a bot on discord and add the bot to your Discord server
   6. Fill in the variables in discord-bot.py
 <br><sub>If you are hosting a service, remember to set up the firewall rules in Google Cloud Platform</sub>
 
