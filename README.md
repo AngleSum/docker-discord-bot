@@ -27,7 +27,8 @@ Runs <code>docker-compose down</code> via gcloud ssh, then shuts down the comput
 ### /status
 
 Returns the status of the server  
-Outputs:  
+  
+Output:  
 - The server is **running**  
 - The server is **stopped**
 
